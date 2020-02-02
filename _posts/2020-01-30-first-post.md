@@ -34,3 +34,20 @@ Pages가 다른 블로그 플랫폼 보다 편한 것 같아서 마음에 든다
 YFM에서 정의한 제목을 이중 괄호 구문으로 본문에 추가할 수 있다.
 이 글의 제목은 {{ page.title }}이고
 마지막으로 수정된 시간은 {{ page.last_modified_at }}이다.
+
+## 참고 사이트 정리
+[지킬, 루비 설치](https://dataitgirls2.github.io/tutorial/Tutorial_180709_StaticBlogging_JekyllandRuby.html)  
+[지킬, 루비 설치]
+(http://error404.co.kr/dev/2018/04/13/jekyll-for-windows/)  
+[github 블로그 시작하기](https://devinlife.com/howto%20github%20pages/first-post/)  
+<https://zoomkoding.github.io/gitblog/2019/08/18/git-blog-2.html>
+
+## 주의할점
+로컬에서 수정사항을 확인한 후에 최종 git push를 보내도록 하자. 
+해당 폴더에서 cmd 창 실행하여 bundle exec jekyll serve 하면 서버 연동됨
+
+## 충격
+_config.yml 파일을 수정하고 나니 szinfo? 어쩌구 에러가 났다. 왜 났는지 몰라서 한참을 쩔쩔 매다가 결국에는 매우 간단한 문제였음을... timezone 설정을 Asia/Seoul로 했는데 이게 문제였다.? 뭐지? 내일 확인해봐야지
+
+
+
